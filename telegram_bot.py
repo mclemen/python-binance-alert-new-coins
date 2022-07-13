@@ -3,7 +3,7 @@ from telegram.ext import Updater
 from telegram.ext import CommandHandler
 from binance import main
 
-telegram_bot_token = "1946817442:AAG4taa0Oht9net0zo3oSkwUeyNmNfb9cEk"
+telegram_bot_token = "your_telegram_token_here"
 
 updater = Updater(token=telegram_bot_token, use_context=True)
 dispatcher = updater.dispatcher
