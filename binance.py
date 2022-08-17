@@ -88,11 +88,11 @@ def main():
             if len(new_coins) > 0:
 
                 print(f'New coins detected: {new_coins}')
-                gmail_user = 'mobilegods.newcoins@gmail.com'
-                gmail_password = 'ngXK49AvPYBYPVhY'
+                gmail_user = 'gmail_user'
+                gmail_password = 'gmail_pass'
 
                 sent_from = gmail_user
-                to = ['michael.clemen@gmail.com', 'kevinhsieh@hsiehweb.com', 'david@davidchencpa.com']
+                to = ['email_address', 'email_address', 'email_address']
                 subject = 'Binance New Coins'
                 body = f'New coins detected: {new_coins}'
 
